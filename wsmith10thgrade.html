@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head><!-- "brain" of the page-->
+		<link href="Slideshow.js">
+		<link href="Global.css" type="text/css" rel="stylesheet"> 
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head><body>
+<script>var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+} </script>
+<style>
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}</style>
+				<div class="dropdown">
+				  <button class="dropbtn">Home</button>
+				  <div class="dropdown-content">
+					<a href="index.html">Home</a>
+				  </div>
+				</div>
+				  
+				<div class="dropdown">
+				  <button class="dropbtn">projects</button>
+				  <div class="dropdown-content">
+					<a href="wsmithprojects.html">projects Home</a>
+					<a href="wsmith7thgrade.html">7thgrade</a>
+					<a href="wsmith8thgrade.html">8thgrade</a>
+					<a href="wsmith9thgrade.html">9thgrade</a>
+					<a href="wsmith10thgrade.html">10thgrade</a>
+					</div>
+					</div>
+
+				<div class="dropdown">
+				  <button class="dropbtn">about me</button>
+				  <div class="dropdown-content">
+					<a href="wsmithaboutme.html">about me</a>
+					</div>
+					</div>
+					
+					<div class="dropdown">
+				  <button class="dropbtn">5qualities</button>
+				  <div class="dropdown-content">
+					<a href="creativity.html">creativity</a>
+					<a href="inquiry.html">inquiry</a>
+					<a href="communication.html">communication</a>
+					<a href="persistance.html">Persistance</a>
+					<a href="colaberation.html">colaberation</a>
+					</div>
+					</div>
+										<div class="dropdown">
+				  <button class="dropbtn">Genius Hour</button>
+				  <div class="dropdown-content">
+					<a href="Genius-Hour.html">Genius Hour</a>
+					<a href="Genius-hour-Workcited.html">Workcited</a>
+				  </div>
+				</div>
+				<div class="dropdown">
+				
+					<button class="dropbtn"><a href="Coding-Growth.html">Coding</a></button>
+				</div>
+
+				  </div>
+				</div>
+
+
+
+</style><div class="container">
+
+<body>
+<center>
+
+ 
+</center>
+<center><h1>10th grade</h1></center>
+
+<h1>Entry 1</h1>
+<p>Challenges are a thing that we face every day. Some challenges are bigger than others. Throughout my 10th grade year I have faced a lot of challenges. However there are three challenges that stand out above the others. These challenges are the Chinese school life video, the trigonometry section of math, and the language arts prologue or epilogue essay. All three of these were in subjects that I didn’t do so well in, and am still working on understanding fully. The Chinese project was especially hard, and here is why.<br /><br />
+
+
+The Chinese project was a rather hard project for me and it came with a lot of challenges. The first one was understanding what the script we translated said. We wrote it in English and then translated it to Chinese, but we needed to practice our lines so that we could pronounce them properly. Then we had the issue of getting all of the scene recorded because we needed to make sure the video wasn’t too short or too long. We ended up with a few five minute clips, which was our total time limit, so we had to do a lot of editing, which was the next issue. The original plan was to have me and one of my team members edit the video together however between filming taking a lot of time and “communication errors” when the day the project was due rolled around, we had none of it edited. Thankfully, a friend of mine taught me how to use the program and I managed to get the video edited by the end of school and got it submitted. It turned out okay for being edited together in a day but it would have been better had we prepared better.<br /> <br />
+
+Speaking of not being prepared, I most certainly wasn’t for the amount of stress and confusion that I got with the trigonometry unit in math. I had already not liked trigonometry because I didn’t understand it last year and this year didn’t help in my understanding of the subject. We started with the basics of geometry with a2+b2=c2 and I got that okay. However the part I really didn’t understand was SIN, COS, and TAN. I understood what they meant but we were asked to find the SIN COS or TAN of an angle and I had no clue what I was doing. I tried getting help from friends and other things but I just couldn’t grasp the subject. This did leave me a bit frustrated as math was normally my strong subject. Overall I ended up not doing so hot on my test and therefore not great 2nd quarter.<br /> <br />
+
+For my final piece of struggle it would definitely have to be in the Prologue or Epilogue essay that we did in 2nd quarter. The goal of the project was to write a 1250 word essay that was either a prologue or epilogue to a story that we selected from a list. We had to read the story, make a draft, get critique, and then make our final. I decided to go with a prologue for “the masque of the red death” by Edgar Allen Poe. Now the struggle for this project came after the critique. Before that I had a decent start and my critiquer said that it looked really nice for my first draft. Then I ran into the issue of “where do I go from here?” I only had 400 of the required 1250 words and I was starting to get a bit worried as I didn’t know what else to add to the story that would make it seem like it wasn’t just there to add words. As the due date grew closer I started scanning the rubric to see just how many points I would lose for not having enough words. Fortunately I would only lose a few if my story good except for the word count. I ended up turning it in with only about 450 words and I believe I still did well. <br /> <br />
+
+This whole essay has been about why my procrastination had led me to not succeeding and although I didn’t do well, im glad that I am able to at least try and learn from those mistakes so that I don’t make them in the future. Hopefully by college I will have grown past a lot of those mistakes and it will make me a better person. 
+</p>
+<h1>Entry 2</h1>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 7</div>
+    <img src="images\Slide 1.PNG" style="height:500px">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 7</div>
+    <img src="images/slide 2.png" style="height:500px">
+    <div class="text">Caption Two</div>
+  </div>
+
+  
+   <div class="mySlides fade">
+    <div class="numbertext">3 / 7</div>
+    <img src="images/Slide 3.png" style="height:500px">
+    <div class="text">Caption Three</div>
+  </div>
+  
+   <div class="mySlides fade">
+    <div class="numbertext">4 / 7</div>
+    <img src="images/Slide 5.png" style="height:500px">
+    <div class="text">Caption Three</div>
+  </div>
+  
+   <div class="mySlides fade">
+    <div class="numbertext">5 / 7</div>
+    <img src="images/slide 4.png" style="height:500px">
+    <div class="text">Caption Three</div>
+  </div>
+  
+   <div class="mySlides fade">
+    <div class="numbertext">6 / 7</div>
+    <img src="images/slide 6.png" style="height:500px">
+    <div class="text">Caption Three</div>
+  </div>
+  
+   <div class="mySlides fade">
+    <div class="numbertext">7 / 7</div>
+    <img src="images/slide 7.png" style="height:500px">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div> 
+
+
+</body>
+</html>				
